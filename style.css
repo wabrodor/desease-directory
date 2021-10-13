@@ -454,14 +454,16 @@ li{
          height:100vh;
          width:100%;
          list-style: none;
-         display:flex;
-           gap:30px;
-         align-items:flex-start;
-         flex-direction:column;
+      display:flex;
+         place-items:center;
+           gap:20px;
+         align-items:center;
          top:100px;
+         flex-direction:column;
          left:0;
       z-index:2;
       justify-content: flex-start;
+     padding-top:100px;
       gap:30px;
       opacity:1;
         }
@@ -509,23 +511,28 @@ li{
              height:100vh;
              width:100%;
              list-style: none;
-             display:flex;
-               gap:10px;
+          display:flex;
+             place-items:center;
+               gap:20px;
              align-items:center;
-             flex-direction:column;
              top:100px;
+             flex-direction:column;
              left:0;
           z-index:2;
-          justify-content: center;
+          justify-content: flex-start;
+         padding-top:50px;
           gap:30px;
           opacity:1;
+          scroll-behavior: smooth;
             }
 
             .menu >li{
-              display:inline-block;
+              display:block;
               margin:0rem 2rem;
-              font-size:30px;
+              font-size:25px;
+              cursor: pointer;
             }
+           
             .active{
               padding:1rem;
               margin:1rem;
