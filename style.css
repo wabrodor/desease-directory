@@ -455,13 +455,13 @@ li{
          width:100%;
          list-style: none;
          display:flex;
-           gap:10px;
+           gap:30px;
          align-items:center;
          flex-direction:column;
          top:100px;
          left:0;
       z-index:2;
-      justify-content: center;
+      justify-content: flex-start;
       gap:30px;
       opacity:1;
         }
