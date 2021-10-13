@@ -43,7 +43,7 @@ console.log("hi")
            }
           ,1500)
        myfunction()
-
+redirect.classList.remove("modal-popup")
     })
             
   })
