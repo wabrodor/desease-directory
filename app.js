@@ -39,11 +39,13 @@ console.log("hi")
       setTimeout(
       
         function myfunction(){
+          redirect.classList.remove("modal-popup")
           window.location.href = link
+
            }
-          ,1500)
+          ,1200)
        myfunction()
-redirect.classList.remove("modal-popup")
+
     })
             
   })
